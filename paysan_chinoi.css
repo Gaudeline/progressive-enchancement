@@ -1,0 +1,33 @@
+p
+{
+font-family: serif;
+line-height: 170%;
+font-size: 120%;
+color: #273933;
+}
+body
+{width: 90%;
+margin: 0 auto;
+}
+blockquote
+{width: 50%;
+margin:0 auto;
+font-size: 160%;
+background-color: #9e9c9b;
+border-left: 3px solid #df6d02;
+padding-left: 30px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+body
+{background: linear-gradient(#16edeb,#011f1f);
+background-image: url(/home/gaudeline/Images/texture_paysan.jpeg);
+background-repeat: no-repeat;
+background-position: bottom right;
+background-size: cover;
+}
+blockquote
+{font-style: italic;
+}
+.villageois{border-left: 3px solid #2cb2b0}
+.fermier{border-left: 3px solid #055856}
