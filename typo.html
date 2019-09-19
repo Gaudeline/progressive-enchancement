@@ -37,9 +37,9 @@
           Une manière simple pour calculer la justification est d 'utiliser la méthode de Robert Bringhurst, qui multiplie la taille de la police par 30. Si la taille de la police est de 10px, la multiplier par 30 vous donne une justification de 300px ou environ 65 caractères par ligne. Le code ressemblerait à quelque chose comme:</p>
 
 <figure>
-  p {
-  font-size: 10px;
-  max-width: 300px;
+  p {<br>
+  font-size: 10px;<br>
+  max-width: 300px;<br>
   }
 </figure>
 <img src="http://www.pompage.net/IMG/jpg/justification.jpg" alt="justification">
@@ -55,10 +55,10 @@
         Obtenir le bon espacement demande un peu de finesse, mais voici un exemple de ce à quoi le code pourrait ressembler:</p>
 
 <figure>
-  body {
-  font-family: Helvetica, sans-serif;
-  font-size: 12px;
-  line-height: 16px;
+  body {<br>
+  font-family: Helvetica, sans-serif;<br>
+  font-size: 12px;<br>
+  line-height: 16px;<br>
   }
 </figure>
 <img src="http://www.pompage.net/IMG/jpg/interlignage.jpg" alt="Interlignage">
@@ -72,9 +72,9 @@
         Ce résultat est obtenu très facilement avec CSS en utilisant l 'élément blockquote:</p>
 
 <figure>
-  blockquote {
-  text-indent: -0.8em;
-  font-size: 12px;
+  blockquote {<br>
+  text-indent: -0.8em;<br>
+  font-size: 12px;<br>
 }
 </figure>
         <figcaption>L 'indentation négative dépendra de la police, de la taille de la fonte et des marges utilisées.</figcaption>
@@ -89,13 +89,13 @@
         Pour conserver un rythme vertical en CSS il faut que l 'espacement entre les éléments et l 'interlignage soient égaux à la taille de la grille de référence. Par exemple, disons que vous utilisez une grille de référence de 15px, ce qui signifie qu 'il y a 15px entre chaque ligne de base. L 'interlignage serait de 15px et l 'espace entre chaque paragraphe serait également de 15px. Voici un exemple:</p>
 
 <figure>
-  body {
-  font-family: Helvetica, sans-serif;
-  font-size: 12px;
-  line-height: 15px;
-  }
-  p {
-  margin-bottom: 15px;
+  body {<br>
+  font-family: Helvetica, sans-serif;<br>
+  font-size: 12px;<br>
+  line-height: 15px;<br>
+  }<br>
+  p {<br>
+  margin-bottom: 15px;<br>
   }
 </figure>
         <figcaption>Cela permet à chaque paragraphe de s 'aligner sur la grille et ainsi de conserver le rythme vertical du texte.</figcaption>
@@ -121,17 +121,17 @@
         Voici quelques manières différentes de créer une emphase en CSS:</p>
 
 <figure>
-  span {
-  font-variant: small-caps;
-  }
-  h1 {
-  font-style: italic;
-  }
-  h2 {
-  text-transform: uppercase;
-  }
-  a {
-  text-decoration: underline;
+  span {<br>
+  font-variant: small-caps;<br>
+  }<br>
+  h1 {<br>
+  font-style: italic;<br>
+  }<br>
+  h2 {<br>
+  text-transform: uppercase;<br>
+  }<br>
+  a {<br>
+  text-decoration: underline;<br>
   }
   </figure>
         <figcaption>Gardez à l 'esprit que le style font-variant ne fonctionne que si la police choisie supporte la variante small-caps (petites capitales).</figcaption>
@@ -185,7 +185,7 @@
 
         <p>Voici une liste d 'articles et livres sur le même thème pour vous aider avec les détails:</p>
 
-  
+
 <ul>
 
                 <li><a href="http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/" hreflang="en">Five Simple Steps to Better Typography</a>, Mark Boulton</li>
