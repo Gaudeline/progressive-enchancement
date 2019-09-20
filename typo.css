@@ -34,24 +34,33 @@ p{
   text-align: justify;
   color:  #404c4a;
   word-wrap: normal;
+  font-size: 90%;
 
 }
 figure{
   background-size: auto;
   background-color:  #e9f0ef;
+  color: #32514b;
+  font-size: 80%;
   text-align: left;
-  margin-right: 80px;
+  margin-right: 85px;
+  line-height: 90%;
 }
 figcaption{
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: lighter;
   font-style: italic;
   color: #66706e;
-  margin-right: 80px;
+  margin-right: 85px;
 
 }
 section{
   column-count: 2;
-
-
+}
+ul{
+  color: #404c4a;
+}
+footer{
+  color: #404c4a;
+  margin-right: 85px;
 }
