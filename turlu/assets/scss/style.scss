@@ -1,0 +1,41 @@
+@mixin font-1 { font-family: 'Source Sans Pro', sans-serif}
+@mixin display-1 {text-align: center;
+    display:inline;
+    color: #fff;
+    background-color: #165882;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    position: center;}
+body{
+    margin: 0;
+    @include font-1;
+  }
+  nav{
+    display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-flex-direction: column;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-flex-wrap: wrap;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-align-content: stretch;
+     -ms-flex-line-pack: stretch;
+     align-content: stretch;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+    }
+.REST{
+    @include display-1;
+}
+.Docs{
+    @include display-1;
+}.Start{
+    @include display-1;
+}
